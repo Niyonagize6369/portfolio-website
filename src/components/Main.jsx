@@ -1,22 +1,14 @@
-import Nav from "./Nav";
 import Hero from "./Hero";
-import Project from "./project";
-import Skills from "./skills";
-import Footer from "./Footer";
-
-
+import Project from "./Projects"
+import Skills from "./Skill"
 const Main = () => {
   return (
     <>
-      
-      <Hero/>
-      <Project/>
-      <Skills/>
-      
+      <Hero />
+      <Project />
+      <Skills />
     </>
-  )
-}
+  );
+};
 
-export default Main
-
-
+export default Main;
