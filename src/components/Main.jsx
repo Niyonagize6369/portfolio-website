@@ -1,6 +1,6 @@
 import Hero from "./Hero";
-import Project from "./Projects"
-import Skills from "./Skill"
+import Project from "./Projects";
+import Skills from "./Skill";
 const Main = () => {
   return (
     <>

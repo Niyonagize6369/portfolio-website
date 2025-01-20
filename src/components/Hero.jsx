@@ -16,12 +16,12 @@ const hero = () => {
           <h1 className="text-6xl">RACHEL NIYONAGIZE</h1>
           <hr />
           <p className="mt-10  text-slate-300 font-sans">
-            me As a web developer, I design and build websites and web
-            applications, focusing on both the front-end aspects. my role
-            involves writing clean, efficient code, ensuring responsive design,
-            and optimizing performance for a seamless user experience. My work
-            closely with designers and other developers to implement features
-            and functionality. Keeping up with the latest web technologies and
+            Me as a web developer, I design and build websites and web
+            applications, focusing on front-end aspect. my role involves writing
+            clean efficient code, ensuring responsive design, and optimizing
+            performance for a seamless user experience. My work closely with
+            designers and other developers to implement features and
+            functionality. Keeping up with the latest web technologies and
             trends is essential to deliver modern, user-friendly solutions.
           </p>
         </div>

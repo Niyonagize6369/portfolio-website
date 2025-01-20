@@ -1,15 +1,14 @@
-import { CgNametag } from 'react-icons/cg';
-import { AiOutlineClose } from 'react-icons/ai';
-import { HiMenuAlt1 } from 'react-icons/hi';
-import { useState } from 'react';
+import { CgNametag } from "react-icons/cg";
+import { AiOutlineClose } from "react-icons/ai";
+import { HiMenuAlt1 } from "react-icons/hi";
+import { useState } from "react";
 function Nav() {
-
   const [toggle, setToggle] = useState(false);
-  function openMenu(){
+  function openMenu() {
     setToggle(true);
   }
 
-  function closeMenu(){
+  function closeMenu() {
     setToggle(false);
   }
   return (
@@ -45,7 +44,7 @@ function Nav() {
               Skills
             </a>
             <a
-              href="#"
+              href="#contactMe"
               className="text-grey hover:bg-slate-300 rounded-full px-6 py-2 text-xl"
             >
               Contact Me
@@ -89,7 +88,7 @@ function Nav() {
                 <a href="#skills">Skills</a>
               </li>
               <li className="text to-black hover:bg-green-200 text-nl mb-2 rounded-full px-7 py-3 text-xl cursor-pointer">
-                Contact Me
+                <a href="#ContactMe">Contact Me</a>
               </li>
               <li className="text to-black hover:bg-green-200 text-nl mb-2 rounded-full px-7 py-3 text-xl cursor-pointer">
                 <a href="#project">Project</a>
@@ -104,4 +103,4 @@ function Nav() {
   );
 }
 
-export default Nav
+export default Nav;

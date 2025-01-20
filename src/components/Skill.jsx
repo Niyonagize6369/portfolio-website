@@ -1,7 +1,7 @@
-import S1 from "../assets/s1.jpg";
-import S2 from "../assets/s2.jpg";
-import S3 from "../assets/s3.jpg";
-import S4 from "../assets/s4.jpg";
+import react1 from "../assets/react1.jpg";
+import react2 from "../assets/react2.jpg";
+import react3 from "../assets/react3.jpg";
+import react4 from "../assets/react4.jpg";
 
 const skills = () => {
   return (
@@ -20,7 +20,7 @@ const skills = () => {
        gap-6 dark:bg-slate-800 dark:bg-blend-hard-light-white/5"
             >
               <img
-                src={S1}
+                src={react1}
                 className="left-6 w-28 h-28 rounded-full shadow-lg object-cover"
               />
               <div className="min-w-0 py-5 pl-28 pr-5">
@@ -28,7 +28,7 @@ const skills = () => {
                   className="text-slate-900 font-medium
         text-sm: sm:text-base truncate dark:text-slate-200"
                 >
-                  REACT
+                  REACT.JS NODE
                 </div>
                 <div
                   className="text-slate-900 font-medium text-sm *:sm:text-base
@@ -49,7 +49,7 @@ const skills = () => {
        gap-6 dark:bg-slate-800 dark:bg-blend-hard-light-white/5"
             >
               <img
-                src={S2}
+                src={react2}
                 className="left-6 w-28 h-28 rounded-full shadow-lg object-cover"
               />
               <div className="min-w-0 py-5 pl-28 pr-5">
@@ -63,7 +63,7 @@ const skills = () => {
                   className="text-slate-900 font-medium text-sm *:sm:text-base
         leading-tight truncate dark:text-slate-400"
                 >
-                  IT SUPPOTER
+                  IT SPECIALIST
                 </div>
               </div>
             </div>
@@ -78,7 +78,7 @@ const skills = () => {
        gap-6 dark:bg-slate-800 dark:bg-blend-hard-light-white/5"
             >
               <img
-                src={S3}
+                src={react3}
                 className="left-6 w-28 h-28 rounded-full shadow-lg object-cover"
               />
               <div className="min-w-0 py-5 pl-28 pr-5">
@@ -86,13 +86,13 @@ const skills = () => {
                   className="text-slate-900 font-medium
         text-sm: sm:text-base truncate dark:text-slate-200"
                 >
-                  Name Goes Here
+                  HTML 
                 </div>
                 <div
                   className="text-slate-900 font-medium text-sm *:sm:text-base
         leading-tight truncate dark:text-slate-400"
                 >
-                  Assistant manager
+                  EXPERT IN HTML
                 </div>
               </div>
             </div>
@@ -107,7 +107,7 @@ const skills = () => {
        gap-6 dark:bg-slate-800 dark:bg-blend-hard-light-white/5"
             >
               <img
-                src={S4}
+                src={react4}
                 className="left-6 w-28 h-28 rounded-full shadow-lg object-cover"
               />
               <div className="min-w-0 py-5 pl-28 pr-5">
@@ -115,13 +115,13 @@ const skills = () => {
                   className="text-slate-900 font-medium
         text-sm: sm:text-base truncate dark:text-slate-200"
                 >
-                  Name Goes Here
+                  EXPERT IN CSS
                 </div>
                 <div
                   className="text-slate-900 font-medium text-sm *:sm:text-base
         leading-tight truncate dark:text-slate-400"
                 >
-                  Assistant manager
+                  CSS DEVELOPER
                 </div>
               </div>
             </div>

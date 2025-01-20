@@ -21,7 +21,7 @@ const project = () => {
             <div className="grid md:grid-cols-2  gap-5">
               <div className="flex flex-row-reverse items-center bg-blue-50 rounded-2xl shadow-md">
                 <div className="md:shrink-0 p-5">
-                  <img src={project2} alt="bg1" width={150} height={150} />
+                  <img src={project1} alt="bg1" width={150} height={150} />
                 </div>
                 <div className="p-8">
                   <div
@@ -33,10 +33,8 @@ const project = () => {
                   <a href="#">profile</a>
 
                   <p className="mt-2 text-slate-900">
-                    Here you can see collection of my best work that will shows
-                    you my skills and what i can do. Its impress you by giving
-                    examples of what I've done. Also you see my strengths and
-                    what am I capable of achieving.
+                    Here you will see my best work that I've done this will
+                    shows you my skills and My capability.
                   </p>
                 </div>
               </div>
@@ -52,11 +50,11 @@ const project = () => {
                   >
                     school Management System
                   </div>
-                  <a href="#">Subheading</a>
+                  <a href="#">MANAGER</a>
 
                   <p className="mt-2 text-slate-900">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sit minus dolore.
+                    Helps leaders to control All activity in the school in easy
+                    way like library,discplinary etc...
                   </p>
                 </div>
               </div>
@@ -72,49 +70,44 @@ const project = () => {
             <div className="grid md:grid-cols-2 gap-5">
               <div className="flex flex-row-reverse items-center bg-blue-50 rounded-2xl shadow-md">
                 <div className="md:shrink-0 p-5">
-                  <img src={project2} alt="bg1" width={150} height={150} />
+                  <img src={project3} alt="bg1" width={250} height={250} />
                 </div>
                 <div className="p-8">
                   <div
                     className="uppercase tracking-wide text-sm
                  text-indigo-500 font-semibold"
                   >
-                    school Management System
+                    Hotel Booking
                   </div>
-                  <a href="#">Subheading</a>
+                  <a href="#">Reservation</a>
 
                   <p className="mt-2 text-slate-900">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sit minus dolore.
+                    Online Hotel booking in easy every where you are
                   </p>
                 </div>
               </div>
 
               <div className="flex items-center bg-blue-50 rounded-2xl shadow-md">
                 <div className="md:shrink-0 p-5">
-                  <img src={project2} alt="bg1" width={150} height={150} />
+                  <img src={project4} alt="bg1" width={150} height={150} />
                 </div>
                 <div className="p-8">
                   <div
                     className="uppercase tracking-wide text-sm
                  text-indigo-500 font-semibold"
                   >
-                    school Management System
+                    Airline Booking
                   </div>
-                  <a href="#">Subheading</a>
+                  <a href="#">Travel</a>
 
                   <p className="mt-2 text-slate-900">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sit minus dolore.
+                    Online booking ticket. Around world by booking your ticket
+                    in easy way
                   </p>
                 </div>
               </div>
             </div>
           </div>
-
-          {/* <div className='max-w-md mx-auto bg-white rounded-xl shadow-md 
-          overflow-hidden md:max-w-2xl hover:animate-pulse'>
-          </div> */}
         </div>
         <hr />
         <div className="grid grid-cols-2 gap-4 p-0.5"></div>
