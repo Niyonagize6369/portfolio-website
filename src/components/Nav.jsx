@@ -32,7 +32,7 @@ function Nav() {
               Home
             </a>
             <a
-              href="#"
+              href="#About Me"
               className="text-grey hover:bg-slate-300 rounded-full px-6 py-2 text-xl"
             >
               About Me
@@ -82,7 +82,7 @@ function Nav() {
                 Home
               </li>
               <li className="text to-black hover:bg-green-200 text-nl mb-2 rounded-full px-7 py-3 text-xl cursor-pointer">
-                About Me{" "}
+                <a href="#AboutMe">About Me</a>
               </li>
               <li className="text to-black hover:bg-green-200 text-nl mb-2 rounded-full px-7 py-3 text-xl cursor-pointer">
                 <a href="#skills">Skills</a>

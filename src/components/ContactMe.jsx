@@ -1,78 +1,49 @@
 import React from "react";
+import { FaEnvelope, FaMapMarkedAlt, FaPhone } from "react-icons/fa";
 
-
-
-import { Input } from "postcss";
-
-<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css"
-  integrity="sha384-NvKbDTEnL+A8F/AA5Tc5kmMLSJHUO868P+lDtTpJIeQdGYaUIuLr4lVGOEA1OcMy"
-  crossorigin="anonymous"
-></link>;
-
-function ContactMe(){
+const ContactMe = () => {
   return (
-    <section className="ContactMe">
-      <div className="content">
-        <h2>Cntact Me</h2>
-        <p>if you want more information sent me a message via email.</p>
-      </div>
-      <div className="container">
-        <div className="contactinfo">
-          <div className="box">
-            <div className="icon">
-              <i class="fa fa-map-marker" aria-hidden="true"></i>
+    <div className="bg-gray-800 text-white py-20" id="Contact Me">
+      <div
+        className="container mx-auto px-8 md:px-16
+           lg:px-24"
+      >
+        <h2 className="text-4xl font-bold text-center mb-12">About Me</h2>
+        <div className="flex flex-col md:flex items-center md:space-x-12">
+          <div className="flex-1">
+            <h3>let's Talk</h3>
+            <p>
+              I'm open to discussing web development project or partnership
+              opportunities.
+            </p>
+            <div className="mb-4">
+              <FaEnvelope
+                className="inline-block text-green-400
+              mr-2"
+              ></FaEnvelope>
+              <a
+                href="mailto:youremail@example.com"
+                className="hover:underline"
+              >
+                youremail@example.com
+              </a>
             </div>
-            <div className="text">
-              <h3>Address</h3>
-              <p>Kigali,Rwanda,Gishushu</p>
+            <div className="mb-4">
+              <FaPhone
+                className="inline-block text-green-400
+              mr-2"
+              ></FaPhone>
+              <span>+250783350275</span>
             </div>
-
-            <div className="icon">
-              <i class="fa fa-phone" aria-hidden="true"></i>
+            <div className="mb-4">
+              <FaMapMarkedAlt className="inline-block text-green-400 mr-2"></FaMapMarkedAlt>
+              <span>City,Province,Country</span>
             </div>
-            <div className="text">
-              <h3>Phone</h3>
-              <p>0783350275</p>
-            </div>
-
-            <di>
-              <div className="icon">
-                <i class="fa fa-envelope-o" aria-hidden="true"></i>
-              </div>
-              <div className="text">
-                <h3>Email</h3>
-                <p>niyonagizerachel10@gmail.com</p>
-              </div>
-            </di>
-                  </div>
-                  
-                  <div className="contactform">
-                      <form>
-                          <h2>send Message</h2>
-                          <div className="inputbox">
-                        <input type="text" name="" required="required">
-                        <span>Full Name</span>
-                          </div>
-
-                           <div className="inputbox">
-                        <input type="text" name="" required="required">
-                        <span>Email</span>
-                          </div>
-                           <div className="inputbox">
-                        <input type="text" name="" required="required">
-                        <span>Full Name</span>
-                          </div>
-                           <div className="inputbox">
-                        <input type="text" name="" required="required">
-                        <span>type your Message....</span>
-                          </div>
-                      </form>
-                  </div>
+          </div>
+          <div className="flex-1 w-full"></div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

@@ -7,6 +7,7 @@ const Main = () => {
       <Hero />
       <Project />
       <Skills />
+    
     </>
   );
 };
