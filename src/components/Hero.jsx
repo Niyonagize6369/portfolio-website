@@ -10,7 +10,11 @@ import HeroPic from "../assets/girl.jpg";
 const hero = () => {
   return (
     <section className="pt-24">
-      <div className="flex justify-around items-center p-10 space-x-10 lg:flex-row ssm:flex-col ssm:space-y-10 text-white">
+      <div
+        className="flex justify-around items-center p-10 space-x-10 
+      lg:flex-row ssm:flex-col 
+      ssm:space-y-10 text-white"
+      >
         <div className="lg:w-1/2 ssm:w-fit">
           <p className="text-4xl mb-5 text-slate-300">I'm</p>
           <h1 className="text-6xl">RACHEL NIYONAGIZE</h1>
