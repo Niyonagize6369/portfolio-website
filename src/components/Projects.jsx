@@ -8,7 +8,9 @@ const project = () => {
     <div id="project" className="pt-12">
       <div className="bg-gray-500 m-20 max-w-full">
         <div className="grid justify-items-center m-10">
-          <h1 className="text-3xl text-blue-200 mt-10">Project</h1>
+          <h1 className="text-4xl text-white py-2 font-bold text-center mb-12">
+            Project
+          </h1>
         </div>
 
         <div>

@@ -1,10 +1,4 @@
-import {
-  BsFacebook,
-  BsTwitter,
-  BsPinterest,
-  BsWhatsapp,
-  BsLinkedin,
-} from "react-icons/bs";
+import { BsTwitter, BsWhatsapp, BsLinkedin, BsGithub } from "react-icons/bs";
 import HeroPic from "../assets/girl.jpg";
 
 const hero = () => {
@@ -43,30 +37,49 @@ const hero = () => {
           <p className="text-slate-300">
             let's build quality in programing and design with our services
           </p>
-          <button className="bg-white text-indigo-600 px-10 py-2 my-3 rounded-full hover:bg-indigo-800 hover:text-white">
-            show more...
+          <button className="relative my-4">
+            <a
+              href="#About Me"
+              className="bg-gradient-to-r from-green-400 to-blue-500
+              text-white hidden md:inline transform transition-transform duration-300
+              hover:scale-105 px-8 py-2 rounded-full"
+            >
+              Show more...
+            </a>
           </button>
+
           <div className="flex mt-5 space-x-4 cursor-pointer">
-            <BsFacebook
-              size={40}
-              className="border-4 hover:border-indigo-800 rounded-full"
-            />
-            <BsTwitter
-              size={40}
-              className="border-4 hover:border-indigo-800 rounded-full"
-            />
-            <BsPinterest
-              size={40}
-              className="border-4 hover:border-indigo-800 rounded-full"
-            />
-            <BsWhatsapp
-              size={40}
-              className="border-4 hover:border-indigo-800 rounded-full"
-            />
-            <BsLinkedin
-              size={40}
-              className="border-4 hover:border-indigo-800 rounded-full"
-            />
+            <a href="https://github.com/Niyonagize6369" target="_blank">
+              <BsGithub
+                size={40}
+                className="border-4 hover:border-indigo-800 rounded-full"
+              />
+            </a>
+            <a href="https://x.com/NiyonagizeR" target="_blank">
+              <BsTwitter
+                size={40}
+                className="border-4 hover:border-indigo-800 rounded-full"
+              />
+            </a>
+            <a
+              href="https://wa.me/+250783350275"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <BsWhatsapp
+                size={40}
+                className="border-4 hover:border-indigo-800 rounded-full"
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/rachel-niyonagize-44b70031b/"
+              target="_blank"
+            >
+              <BsLinkedin
+                size={40}
+                className="border-4 hover:border-indigo-800 rounded-full"
+              />
+            </a>
           </div>
         </div>
       </div>

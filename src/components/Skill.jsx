@@ -7,7 +7,9 @@ const skills = () => {
   return (
     <div id="skills" className="pt-12">
       <div className="bg-gray-500 m-20 ">
-        <h1 className="text-3xl text-blue-200 p-10 text-center">Skills</h1>
+        <h1 className="text-4xl text-white py-2 font-bold text-center mb-12">
+          Skills
+        </h1>
 
         <div className="grid md:grid-cols-2">
           <div
@@ -86,7 +88,7 @@ const skills = () => {
                   className="text-slate-900 font-medium
         text-sm: sm:text-base truncate dark:text-slate-200"
                 >
-                  HTML 
+                  HTML
                 </div>
                 <div
                   className="text-slate-900 font-medium text-sm *:sm:text-base

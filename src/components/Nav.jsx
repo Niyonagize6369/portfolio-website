@@ -44,7 +44,7 @@ function Nav() {
               Skills
             </a>
             <a
-              href="#contactMe"
+              href="#contact"
               className="text-grey hover:bg-slate-300 rounded-full px-6 py-2 text-xl"
             >
               Contact Me
@@ -77,18 +77,18 @@ function Nav() {
       <div className="ss:block lg:hidden">
         {toggle ? (
           <div className="flex justify-between nl-10">
-            <ul>
+            <ul className="pt-32">
               <li className="text to-black hover:bg-green-200 text-nl mb-2 rounded-full px-7 py-3 text-xl cursor-pointer">
                 Home
               </li>
               <li className="text to-black hover:bg-green-200 text-nl mb-2 rounded-full px-7 py-3 text-xl cursor-pointer">
-                <a href="#AboutMe">About Me</a>
+                <a href="#About Me">About Me</a>
               </li>
               <li className="text to-black hover:bg-green-200 text-nl mb-2 rounded-full px-7 py-3 text-xl cursor-pointer">
                 <a href="#skills">Skills</a>
               </li>
               <li className="text to-black hover:bg-green-200 text-nl mb-2 rounded-full px-7 py-3 text-xl cursor-pointer">
-                <a href="#ContactMe">Contact Me</a>
+                <a href="#contact">Contact Me</a>
               </li>
               <li className="text to-black hover:bg-green-200 text-nl mb-2 rounded-full px-7 py-3 text-xl cursor-pointer">
                 <a href="#project">Project</a>
