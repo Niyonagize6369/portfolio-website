@@ -32,7 +32,12 @@ const project = () => {
                   >
                     Portfolio
                   </div>
-                  <a href="#">profile</a>
+                  <a
+                    href="https://niyonagize-rachel.vercel.app/"
+                    target="_blank"
+                  >
+                    View profile
+                  </a>
 
                   <p className="mt-2 text-slate-900">
                     Here you will see my best work that I've done this will
