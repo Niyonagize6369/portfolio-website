@@ -55,9 +55,14 @@ const project = () => {
                     className="uppercase tracking-wide text-sm
                  text-indigo-500 font-semibold"
                   >
-                    school Management System
+                    Library Management System
                   </div>
-                  <a href="#">MANAGER</a>
+                  <a
+                    href="https://github.com/Niyonagize6369/JAVA-EXAM"
+                    target="_blank"
+                  >
+                    View System
+                  </a>
 
                   <p className="mt-2 text-slate-900">
                     Helps leaders to control All activity in the school in easy
