@@ -65,8 +65,8 @@ const project = () => {
                   </a>
 
                   <p className="mt-2 text-slate-900">
-                    Helps leaders to control All activity in the school in easy
-                    way like library,discplinary etc...
+                    Helps leaders to control All activity in Library in easy
+                    way.
                   </p>
                 </div>
               </div>
