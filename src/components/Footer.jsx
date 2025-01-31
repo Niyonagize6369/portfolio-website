@@ -2,11 +2,13 @@ import Footer from "./Footer";
 
 const footer = () => {
   return (
-    <div className="flex justify-center bg-black
-    text-white py-10">
+    <div
+      className="flex justify-center bg-black
+    text-white py-8"
+    >
       copyright &copy; 2025 - RACHEL
-      </div>
-  )
-}
+    </div>
+  );
+};
 
-export default footer
+export default footer;

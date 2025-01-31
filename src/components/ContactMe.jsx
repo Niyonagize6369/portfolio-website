@@ -38,7 +38,7 @@ const ContactMe = () => {
                 className="inline-block text-green-400
               mr-2"
               ></FaPhone>
-              <span>+250783350275</span>
+              <span>+250-783350275</span>
             </div>
             <div className="mb-4">
               <FaMapMarkedAlt className="inline-block text-green-400 mr-2"></FaMapMarkedAlt>

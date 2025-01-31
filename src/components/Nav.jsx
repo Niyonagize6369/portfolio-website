@@ -17,7 +17,7 @@ function Nav() {
         <div>
           <a
             href="#"
-            className="text-grey font-mono text-3xl
+            className="text-white font-mono text-3xl
       tracking-wider flex items-center"
           >
             <CgNametag /> RACHEL
@@ -27,31 +27,31 @@ function Nav() {
           <div className="ssm:hidden lg:block space-x-2">
             <a
               href="#"
-              className="text-grey hover:bg-slate-300 rounded-full px-6 py-2 text-xl"
+              className="text-white hover:bg-slate-950 rounded-full px-6 py-2 text-xl"
             >
               Home
             </a>
             <a
               href="#About Me"
-              className="text-grey hover:bg-slate-300 rounded-full px-6 py-2 text-xl"
+              className="text-white hover:bg-slate-950 rounded-full px-6 py-2 text-xl"
             >
               About Me
             </a>
             <a
               href="#skills"
-              className="text-grey hover:bg-slate-300 rounded-full px-6 py-2 text-xl"
+              className="text-white hover:bg-slate-950 rounded-full px-6 py-2 text-xl"
             >
               Skills
             </a>
             <a
               href="#contact"
-              className="text-grey hover:bg-slate-300 rounded-full px-6 py-2 text-xl"
+              className="text-white hover:bg-slate-950 rounded-full px-6 py-2 text-xl"
             >
               Contact Me
             </a>
             <a
               href="#project"
-              className="text-grey hover:bg-slate-300 rounded-full px-6 py-2 text-xl"
+              className="text-white hover:bg-slate-950 rounded-full px-6 py-2 text-xl"
             >
               Project
             </a>
@@ -78,19 +78,19 @@ function Nav() {
         {toggle ? (
           <div className="flex justify-between nl-10">
             <ul className="pt-32">
-              <li className="text to-black hover:bg-green-200 text-nl mb-2 rounded-full px-7 py-3 text-xl cursor-pointer">
+              <li className="text-white hover:bg-slate-950 text-nl mb-2 rounded-full px-7 py-3 text-xl cursor-pointer">
                 Home
               </li>
-              <li className="text to-black hover:bg-green-200 text-nl mb-2 rounded-full px-7 py-3 text-xl cursor-pointer">
+              <li className="text-white hover:bg-slate-950 text-nl mb-2 rounded-full px-7 py-3 text-xl cursor-pointer">
                 <a href="#About Me">About Me</a>
               </li>
-              <li className="text to-black hover:bg-green-200 text-nl mb-2 rounded-full px-7 py-3 text-xl cursor-pointer">
+              <li className="text-white hover:bg-slate-950 text-nl mb-2 rounded-full px-7 py-3 text-xl cursor-pointer">
                 <a href="#skills">Skills</a>
               </li>
-              <li className="text to-black hover:bg-green-200 text-nl mb-2 rounded-full px-7 py-3 text-xl cursor-pointer">
+              <li className="text-white hover:bg-slate-950 text-nl mb-2 rounded-full px-7 py-3 text-xl cursor-pointer">
                 <a href="#contact">Contact Me</a>
               </li>
-              <li className="text to-black hover:bg-green-200 text-nl mb-2 rounded-full px-7 py-3 text-xl cursor-pointer">
+              <li className="text-white hover:bg-slate-950 text-nl mb-2 rounded-full px-7 py-3 text-xl cursor-pointer">
                 <a href="#project">Project</a>
               </li>
             </ul>
