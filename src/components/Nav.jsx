@@ -74,12 +74,12 @@ function Nav() {
         </div>
       </div>
 
-      <div className="ss:block lg:hidden">
+      <div className=" fixed ss:block lg:hidden">
         {toggle ? (
-          <div className="flex justify-between nl-10">
+          <div className=" flex justify-between nl-10">
             <ul className="pt-32">
               <li className="text-white hover:bg-slate-950 text-nl mb-2 rounded-full px-7 py-3 text-xl cursor-pointer">
-                Home
+                <a href="#">Home</a>
               </li>
               <li className="text-white hover:bg-slate-950 text-nl mb-2 rounded-full px-7 py-3 text-xl cursor-pointer">
                 <a href="#About Me">About Me</a>

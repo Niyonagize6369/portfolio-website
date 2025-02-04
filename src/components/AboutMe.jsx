@@ -3,7 +3,7 @@ import AboutImg from "../assets/AboutImg.jpg";
 
 const AboutMe = () => {
   return (
-    <div className="bg-gray-800 text-white py-40" id="About Me">
+    <div className="bg-gray-800 text-white py-32" id="About Me">
       <div
         className="container mx-auto px-8 md:px-16
           lg:px-24"

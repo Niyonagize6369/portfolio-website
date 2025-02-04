@@ -3,9 +3,9 @@ import { FaEnvelope, FaMapMarkedAlt, FaPhone } from "react-icons/fa";
 
 const ContactMe = () => {
   return (
-    <div className="bg-gray-800 text-white py-40" id="contact">
+    <div className="bg-gray-800 text-white py-32" id="contact">
       <div
-        className="container mx-auto px-8 md:px-16
+        className="container mx-auto px-8 md:px-20
            lg:px-24"
       >
         <h2 className="text-4xl font-bold text-center mb-12">Contact Me</h2>
@@ -21,7 +21,7 @@ const ContactMe = () => {
               I'm open to discussing web development project or partnership
               opportunities.
             </p>
-            <div className="mb-4">
+            <div className="mb-2">
               <FaEnvelope
                 className="inline-block text-green-400
               mr-2"
@@ -33,7 +33,7 @@ const ContactMe = () => {
                 youremail@example.com
               </a>
             </div>
-            <div className="mb-4">
+            <div className="mb-2">
               <FaPhone
                 className="inline-block text-green-400
               mr-2"
