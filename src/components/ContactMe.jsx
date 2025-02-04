@@ -2,7 +2,7 @@ import React from "react";
 import { FaEnvelope, FaMapMarkedAlt, FaPhone } from "react-icons/fa";
 import emailjs from "@emailjs/browser";
 
-const Contactme = () => {
+const ContacMe = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
