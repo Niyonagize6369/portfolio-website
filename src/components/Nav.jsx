@@ -13,7 +13,7 @@ function Nav() {
   }
   return (
     <>
-      <div className="fixed w-full bg-gray-600 flex items-center justify-between p-10 lg:flex-row">
+      <div className="fixed w-full z-40 bg-gray-600 flex items-center justify-between p-10 lg:flex-row">
         <div>
           <a
             href="#"
