@@ -74,24 +74,34 @@ function Nav() {
         </div>
       </div>
 
-      <div className="fixed z-40 ss:block lg:hidden">
+      <div className="fixed  bg-gray-600 w-full mt-20 z-40 ss:block lg:hidden">
         {toggle ? (
-          <div className="  bg-gray-600 flex justify-between nl-10">
-            <ul className="pt-32">
+          <div className="  flex justify-between nl-10">
+            <ul className="pt-12">
               <li className="text-white hover:bg-slate-950 text-nl mb-2 rounded-full px-7 py-3 text-xl cursor-pointer">
-                <a href="#">Home</a>
+                <a href="#" onClick={closeMenu}>
+                  Home
+                </a>
               </li>
               <li className="text-white hover:bg-slate-950 text-nl mb-2 rounded-full px-7 py-3 text-xl cursor-pointer">
-                <a href="#About Me">About Me</a>
+                <a href="#About Me" onClick={closeMenu}>
+                  About Me
+                </a>
               </li>
               <li className="text-white hover:bg-slate-950 text-nl mb-2 rounded-full px-7 py-3 text-xl cursor-pointer">
-                <a href="#skills">Skills</a>
+                <a href="#skills" onClick={closeMenu}>
+                  Skills
+                </a>
               </li>
               <li className="text-white hover:bg-slate-950 text-nl mb-2 rounded-full px-7 py-3 text-xl cursor-pointer">
-                <a href="#contact">Contact Me</a>
+                <a href="#contact" onClick={closeMenu}>
+                  Contact Me
+                </a>
               </li>
               <li className="text-white hover:bg-slate-950 text-nl mb-2 rounded-full px-7 py-3 text-xl cursor-pointer">
-                <a href="#project">Project</a>
+                <a href="#project" onClick={closeMenu}>
+                  Project
+                </a>
               </li>
             </ul>
           </div>
