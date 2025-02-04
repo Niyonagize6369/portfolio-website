@@ -5,7 +5,7 @@ import react4 from "../assets/react4.jpg";
 
 const skills = () => {
   return (
-    <div id="skills" className="pt-12">
+    <div id="skills" className=" z-10 pt-12">
       <div className="bg-gray-500 m-20 ">
         <h1 className="text-4xl text-white py-2 font-bold text-center mb-12">
           Skills

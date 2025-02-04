@@ -74,7 +74,7 @@ function Nav() {
         </div>
       </div>
 
-      <div className="fixed ss:block lg:hidden">
+      <div className="fixed z-40 ss:block lg:hidden">
         {toggle ? (
           <div className=" flex justify-between nl-10">
             <ul className="pt-32">
