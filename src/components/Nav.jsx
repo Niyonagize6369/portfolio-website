@@ -76,7 +76,7 @@ function Nav() {
 
       <div className="fixed z-40 ss:block lg:hidden">
         {toggle ? (
-          <div className=" flex justify-between nl-10">
+          <div className="  bg-gray-600 flex justify-between nl-10">
             <ul className="pt-32">
               <li className="text-white hover:bg-slate-950 text-nl mb-2 rounded-full px-7 py-3 text-xl cursor-pointer">
                 <a href="#">Home</a>

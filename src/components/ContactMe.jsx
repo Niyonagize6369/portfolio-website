@@ -1,28 +1,31 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaEnvelope, FaMapMarkedAlt, FaPhone } from "react-icons/fa";
 import emailjs from "@emailjs/browser";
 
-const ContacMe = () => {
+const contactMe = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     message: "",
   });
   const [status, setStatus] = useState("");
-
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
-
   const sendEmail = (e) => {
     e.preventDefault();
 
     const serviceID = "service_zor7czt";
-    const templateID = "template_x5e0lo9";
+    const templateID = "template_kcaqurk";
     const publicKey = "wjSVdqqYRzladYY3x";
-
+    const templateParams = {
+      to_name: "Your Name", // Receiver's name
+      from_name: formData.name, // Sender's name
+      message: formData.message, // User's message
+      reply_to: formData.email, // Reply email
+    };
     emailjs
-      .send(serviceID, templateID, formData, publicKey)
+      .send(serviceID, templateID, templateParams, publicKey)
       .then((response) => {
         setStatus("Email sent successfully!");
         setFormData({ name: "", email: "", message: "" });
@@ -32,11 +35,8 @@ const ContacMe = () => {
         console.error("EmailJS Error:", error);
       });
   };
-};
-
-const ContactMe = () => {
   return (
-    <div className="bg-gray-800 text-white py-28" id="contact">
+    <div className="bg-gray-800 text-white py-28" id="Contact">
       <div
         className="container mx-auto px-8 md:px-20
            lg:px-24"
@@ -79,16 +79,20 @@ const ContactMe = () => {
             </div>
           </div>
           <div className="flex-1 w-full">
-            <form className="space-y-2">
+            <form onSubmit={sendEmail} className="space-y-4">
               <div>
                 <label htmlFor="name" className="block mb-2">
                   Your Name
                 </label>
                 <input
                   type="text"
+                  name="name"
+                  value={formData.name}
+                  onChange={handleChange}
+                  required
                   className="w-full p-2 rounded bg-gray-800 border border-gray-600
                 focus:outline-none focus:border-green-400"
-                  placeholder="Entr Your Name"
+                  placeholder="Enter Your Name"
                 />
               </div>
               <div>
@@ -97,9 +101,13 @@ const ContactMe = () => {
                 </label>
                 <input
                   type="text"
+                  name="email"
+                  value={formData.email}
+                  onChange={handleChange}
+                  required
                   className="w-full p-2 rounded bg-gray-800 border border-gray-600
                 focus:outline-none focus:border-green-400"
-                  placeholder="Entr Your Name"
+                  placeholder="Enter Your Email"
                 />
               </div>
               <div>
@@ -108,13 +116,20 @@ const ContactMe = () => {
                 </label>
                 <textarea
                   type="text"
+                  name="message"
+                  value={formData.message}
+                  onChange={handleChange}
+                  required
                   className="w-full p-2 rounded bg-gray-800 border border-gray-600
                 focus:outline-none focus:border-green-400"
                   rows="5"
                   placeholder="Enter Your Message"
                 />
               </div>
-              <button className="bg-gradient-to-r from-green-400 to-blue-500 text-white px-4 py-2 rounded-full flex items-center gap-2 shadow-lg hover:scale-105">
+              <button
+                type="submit"
+                className="bg-gradient-to-r from-green-400 to-blue-500 text-white px-4 py-2 rounded-full flex items-center gap-2 shadow-lg hover:scale-105"
+              >
                 send
               </button>
             </form>
@@ -125,4 +140,4 @@ const ContactMe = () => {
   );
 };
 
-export default ContactMe;
+export default contactMe;
