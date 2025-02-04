@@ -36,7 +36,7 @@ const contactMe = () => {
       });
   };
   return (
-    <div className="bg-gray-800 text-white py-28" id="Contact">
+    <div className="bg-gray-800 text-white py-28" id="contact">
       <div
         className="container mx-auto px-8 md:px-20
            lg:px-24"
