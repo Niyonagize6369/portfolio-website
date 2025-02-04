@@ -1,5 +1,38 @@
 import React from "react";
 import { FaEnvelope, FaMapMarkedAlt, FaPhone } from "react-icons/fa";
+import emailjs from "@emailjs/browser";
+
+const Contactme = () => {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+  const [status, setStatus] = useState("");
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    const serviceID = "service_zor7czt";
+    const templateID = "template_x5e0lo9";
+    const publicKey = "wjSVdqqYRzladYY3x";
+
+    emailjs
+      .send(serviceID, templateID, formData, publicKey)
+      .then((response) => {
+        setStatus("Email sent successfully!");
+        setFormData({ name: "", email: "", message: "" });
+      })
+      .catch((error) => {
+        setStatus("Failed to send email. Try again.");
+        console.error("EmailJS Error:", error);
+      });
+  };
+};
 
 const ContactMe = () => {
   return (
