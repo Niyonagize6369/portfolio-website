@@ -16,7 +16,7 @@ const AboutMe = () => {
             className="w-72 h-80 rounded object-cover mb-8 md:mb-0"
           />
           <div className="flex-1">
-            <p className="text-lg mb-8">
+            <p className="text-lg mb-4">
               I'm front-end developer with a focun on building modern and
               responsive web application. with a strong foundation in front-end
               technology.
