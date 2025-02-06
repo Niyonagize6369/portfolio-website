@@ -19,7 +19,7 @@ const contactMe = () => {
     const templateID = "template_kcaqurk";
     const publicKey = "wjSVdqqYRzladYY3x";
     const templateParams = {
-      to_name: "Your Name", // Receiver's name
+      to_name: "Rachel", // Receiver's name
       from_name: formData.name, // Sender's name
       message: formData.message, // User's message
       reply_to: formData.email, // Reply email
@@ -36,18 +36,12 @@ const contactMe = () => {
       });
   };
   return (
-    <div className="bg-gray-800 text-white py-28" id="contact">
-      <div
-        className="container mx-auto px-8 md:px-20
-           lg:px-24"
-      >
-        <h2 className="text-4xl font-bold text-center mb-10">Contact Me</h2>
-        <div className="flex flex-col md:flex items-center md:space-x-12">
+    <div className="text-white bg-gray-800 py-28" id="contact">
+      <div className="container px-8 mx-auto md:px-20 lg:px-24">
+        <h2 className="mb-10 text-4xl font-bold text-center">Contact Me</h2>
+        <div className="flex flex-col items-center md:flex md:space-x-12">
           <div className="flex-1">
-            <h3
-              className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r
-            from-green-400 to-blue-500 mb-2"
-            >
+            <h3 className="mb-2 text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
               let's Talk
             </h3>
             <p>
@@ -55,10 +49,7 @@ const contactMe = () => {
               opportunities.
             </p>
             <div className="mb-2">
-              <FaEnvelope
-                className="inline-block text-green-400
-              mr-2"
-              ></FaEnvelope>
+              <FaEnvelope className="inline-block mr-2 text-green-400"></FaEnvelope>
               <a
                 href="mailto:youremail@example.com"
                 className="hover:underline"
@@ -67,14 +58,11 @@ const contactMe = () => {
               </a>
             </div>
             <div className="mb-2">
-              <FaPhone
-                className="inline-block text-green-400
-              mr-2"
-              ></FaPhone>
+              <FaPhone className="inline-block mr-2 text-green-400"></FaPhone>
               <span>+250-783350275</span>
             </div>
             <div className="mb-2">
-              <FaMapMarkedAlt className="inline-block text-green-400 mr-2"></FaMapMarkedAlt>
+              <FaMapMarkedAlt className="inline-block mr-2 text-green-400"></FaMapMarkedAlt>
               <span>Kigali,Gasabo,Rwanda</span>
             </div>
           </div>
@@ -90,8 +78,7 @@ const contactMe = () => {
                   value={formData.name}
                   onChange={handleChange}
                   required
-                  className="w-full p-2 rounded bg-gray-800 border border-gray-600
-                focus:outline-none focus:border-green-400"
+                  className="w-full p-2 bg-gray-800 border border-gray-600 rounded focus:outline-none focus:border-green-400"
                   placeholder="Enter Your Name"
                 />
               </div>
@@ -105,8 +92,7 @@ const contactMe = () => {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  className="w-full p-2 rounded bg-gray-800 border border-gray-600
-                focus:outline-none focus:border-green-400"
+                  className="w-full p-2 bg-gray-800 border border-gray-600 rounded focus:outline-none focus:border-green-400"
                   placeholder="Enter Your Email"
                 />
               </div>
@@ -120,15 +106,14 @@ const contactMe = () => {
                   value={formData.message}
                   onChange={handleChange}
                   required
-                  className="w-full p-2 rounded bg-gray-800 border border-gray-600
-                focus:outline-none focus:border-green-400"
+                  className="w-full p-2 bg-gray-800 border border-gray-600 rounded focus:outline-none focus:border-green-400"
                   rows="5"
                   placeholder="Enter Your Message"
                 />
               </div>
               <button
                 type="submit"
-                className="bg-gradient-to-r from-green-400 to-blue-500 text-white px-4 py-2 rounded-full flex items-center gap-2 shadow-lg hover:scale-105"
+                className="flex items-center gap-2 px-4 py-2 text-white rounded-full shadow-lg bg-gradient-to-r from-green-400 to-blue-500 hover:scale-105"
               >
                 send
               </button>
