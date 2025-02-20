@@ -6,30 +6,23 @@ import project4 from "../assets/project4.jpg";
 const project = () => {
   return (
     <div id="project" className="pt-12">
-      <div className="bg-gray-500 m-20 max-w-full">
-        <div className="grid justify-items-center m-10">
-          <h1 className="text-4xl text-white py-2 font-bold text-center mb-12">
+      <div className="max-w-full m-20 bg-gray-500">
+        <div className="grid m-10 justify-items-center">
+          <h1 className="py-2 mb-12 text-4xl font-bold text-center text-white">
             Project
           </h1>
         </div>
 
         <div>
           <div className="gap-4 p-0.5">
-            <div
-              className="max-w-md mx-auto bg-white rounded-xl shadow-md 
-            overflow-hidden md:max-w-2xl 
-            hover:animate-pulse"
-            ></div>
-            <div className="grid md:grid-cols-2  gap-5">
-              <div className="flex flex-row-reverse items-center bg-blue-50 rounded-2xl shadow-md">
-                <div className="md:shrink-0 p-5">
+            <div className="max-w-md mx-auto overflow-hidden bg-white shadow-md rounded-xl md:max-w-2xl hover:animate-pulse"></div>
+            <div className="grid gap-5 md:grid-cols-2">
+              <div className="flex flex-row-reverse items-center shadow-md bg-blue-50 rounded-2xl">
+                <div className="p-5 md:shrink-0">
                   <img src={project1} alt="bg1" width={150} height={150} />
                 </div>
                 <div className="p-8">
-                  <div
-                    className="uppercase tracking-wide text-sm
-                 text-indigo-500 font-semibold"
-                  >
+                  <div className="text-sm font-semibold tracking-wide text-indigo-500 uppercase">
                     Portfolio
                   </div>
                   <a
@@ -46,15 +39,12 @@ const project = () => {
                 </div>
               </div>
 
-              <div className="flex items-center bg-blue-50 rounded-2xl shadow-md">
-                <div className="md:shrink-0 p-5">
+              <div className="flex items-center shadow-md bg-blue-50 rounded-2xl">
+                <div className="p-5 md:shrink-0">
                   <img src={project2} alt="bg1" width={150} height={150} />
                 </div>
                 <div className="p-8">
-                  <div
-                    className="uppercase tracking-wide text-sm
-                 text-indigo-500 font-semibold"
-                  >
+                  <div className="text-sm font-semibold tracking-wide text-indigo-500 uppercase">
                     Library Management System
                   </div>
                   <a
@@ -74,40 +64,35 @@ const project = () => {
           </div>
 
           <div className="gap-4 p-0.5">
-            <div
-              className="max-w-md mx-auto
-            overflow-hidden md:max-w-2xl 
-            hover:animate-pulse"
-            ></div>
-            <div className="grid md:grid-cols-2 gap-5">
-              <div className="flex flex-row-reverse items-center bg-blue-50 rounded-2xl shadow-md">
-                <div className="md:shrink-0 p-5">
+            <div className="max-w-md mx-auto overflow-hidden md:max-w-2xl hover:animate-pulse"></div>
+            <div className="grid gap-5 md:grid-cols-2">
+              <div className="flex flex-row-reverse items-center shadow-md bg-blue-50 rounded-2xl">
+                <div className="p-5 md:shrink-0">
                   <img src={project3} alt="bg1" width={250} height={250} />
                 </div>
                 <div className="p-8">
-                  <div
-                    className="uppercase tracking-wide text-sm
-                 text-indigo-500 font-semibold"
-                  >
-                    Hotel Booking
+                  <div className="text-sm font-semibold tracking-wide text-indigo-500 uppercase">
+                    Online Shopping
                   </div>
-                  <a href="#">Reservation</a>
+                  <a
+                    href="https://online-shopping-flax.vercel.app/"
+                    target="_blank"
+                  >
+                    View Online Shopping
+                  </a>
 
                   <p className="mt-2 text-slate-900">
-                    Online Hotel booking in easy every where you are
+                    Here you will see my how you can buy a product in easy way .
                   </p>
                 </div>
               </div>
 
-              <div className="flex items-center bg-blue-50 rounded-2xl shadow-md">
-                <div className="md:shrink-0 p-5">
+              <div className="flex items-center shadow-md bg-blue-50 rounded-2xl">
+                <div className="p-5 md:shrink-0">
                   <img src={project4} alt="bg1" width={150} height={150} />
                 </div>
                 <div className="p-8">
-                  <div
-                    className="uppercase tracking-wide text-sm
-                 text-indigo-500 font-semibold"
-                  >
+                  <div className="text-sm font-semibold tracking-wide text-indigo-500 uppercase">
                     Airline Booking
                   </div>
                   <a href="#">Travel</a>
