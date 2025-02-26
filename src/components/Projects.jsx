@@ -82,7 +82,7 @@ const project = () => {
                   </a>
 
                   <p className="mt-2 text-slate-900">
-                    Here you will see my how you can buy a product in easy way .
+                    Here you will see how you can buy a product in easy way .
                   </p>
                 </div>
               </div>
@@ -93,13 +93,17 @@ const project = () => {
                 </div>
                 <div className="p-8">
                   <div className="text-sm font-semibold tracking-wide text-indigo-500 uppercase">
-                    Airline Booking
+                    Registration Form
                   </div>
-                  <a href="#">Travel</a>
+                  <a
+                    href="https://small-project-five.vercel.app/"
+                    target="_blank"
+                  >
+                    Register
+                  </a>
 
                   <p className="mt-2 text-slate-900">
-                    Online booking ticket. Around world by booking your ticket
-                    in easy way
+                    Online Regitration in easy way
                   </p>
                 </div>
               </div>
