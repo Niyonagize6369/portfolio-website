@@ -96,7 +96,7 @@ const project = () => {
                     Registration Form
                   </div>
                   <a
-                    href="https://small-project-five.vercel.app/"
+                    href="https://small-project-sable.vercel.app/register"
                     target="_blank"
                   >
                     Register
