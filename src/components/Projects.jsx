@@ -107,6 +107,27 @@ const project = () => {
                   </p>
                 </div>
               </div>
+              <div className="flex flex-row-reverse items-center shadow-md bg-blue-50 rounded-2xl">
+                <div className="p-5 md:shrink-0">
+                  <img src={project1} alt="bg1" width={150} height={150} />
+                </div>
+                <div className="p-8">
+                  <div className="text-sm font-semibold tracking-wide text-indigo-500 uppercase">
+                    Chat-App
+                  </div>
+                  <a
+                    href="https://chat-app-theta-ten-68.vercel.app/"
+                    target="_blank"
+                  >
+                    View chat App
+                  </a>
+
+                  <p className="mt-2 text-slate-900">
+                    Here you will see my best work that I've done this will
+                    shows you my skills and My capability.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
