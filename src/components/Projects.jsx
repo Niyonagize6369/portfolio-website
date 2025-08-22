@@ -85,6 +85,36 @@ const project = () => {
                     Here you will see how you can buy a product in easy way .
                   </p>
                 </div>
+                <div className="p-8">
+                  <div className="text-sm font-semibold tracking-wide text-indigo-500 uppercase">
+                    3DP.rw
+                  </div>
+                  <a
+                    href="https://3-dp-rw.vercel.app/"
+                    target="_blank"
+                  >
+                    Visit 3DP.rw
+                  </a>
+
+                  <p className="mt-2 text-slate-900">
+                    Here you will se how we change data into Magic.
+                  </p>
+                </div>
+                <div className="p-8">
+                  <div className="text-sm font-semibold tracking-wide text-indigo-500 uppercase">
+                    Veteri-Tech
+                  </div>
+                  <a
+                    href="https://veteritech-8drl.vercel.app/"
+                    target="_blank"
+                  >
+                    View how it works
+                  </a>
+
+                  <p className="mt-2 text-slate-900">
+                    Here you can buy and meet with a vetenarians .
+                  </p>
+                </div>
               </div>
 
               <div className="flex items-center shadow-md bg-blue-50 rounded-2xl">
