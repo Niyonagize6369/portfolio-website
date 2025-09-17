@@ -35,7 +35,7 @@ const AboutMe = () => {
               </div>
               <div className="flex items-center">
                 <label html for="htmlandcss" className="w-2/12">
-                  REACT JS
+                  REACT JS, NEXTJS,TAILWINDCSS, 
                 </label>
                 <div className="grow bg-gray-800 rounded-full h-2.5">
                   <div
@@ -46,7 +46,7 @@ const AboutMe = () => {
               </div>
               <div className="flex items-center">
                 <label html for="htmlandcss" className="w-2/12">
-                  NODE JS
+                  NODE JS,JAVASCRIPT
                 </label>
                 <div className="grow bg-gray-800 rounded-full h-2.5">
                   <div

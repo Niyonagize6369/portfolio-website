@@ -2,6 +2,9 @@ import project1 from "../assets/project1.jpg";
 import project2 from "../assets/project2.jpg";
 import project3 from "../assets/project3.jpg";
 import project4 from "../assets/project4.jpg";
+import project5 from "../assets/project5.jpg";
+import project6 from "../assets/project6.jpg";
+import project7 from "../assets/project7.jpg";
 
 const project = () => {
   return (
@@ -111,7 +114,7 @@ const project = () => {
               </div>
               <div className="flex flex-row-reverse items-center shadow-md bg-blue-50 rounded-2xl">
                 <div className="p-5 md:shrink-0">
-                  <img src={project1} alt="bg1" width={150} height={150} />
+                  <img src={project5} alt="bg1" width={150} height={150} />
                 </div>
                 <div className="p-8">
                   <div className="text-sm font-semibold tracking-wide text-indigo-500 uppercase">
@@ -130,8 +133,12 @@ const project = () => {
                   </p>
                 </div>
               </div>
-               <div className="p-8  bg-white rounded-2xl shadow-md">
-                
+
+               <div className="flex flex-row-reverse items-center shadow-md bg-blue-50 rounded-2xl">
+                <div className="p-5 md:shrink-0">
+                  <img src={project6} alt="bg1" width={150} height={150} />
+                </div>
+                <div className="p-8">
                   <div className="text-sm font-semibold tracking-wide text-indigo-500 uppercase">
                     Veteri-Tech
                   </div>
@@ -143,12 +150,19 @@ const project = () => {
                   </a>
 
                   <p className="mt-2 text-slate-900">
-                    Here you can buy and meet with a vetenarians .
+                   Here you can buy and meet with a vetenarians .
                   </p>
                 </div>
-                 <div className="p-8 bg-white rounded-2xl shadow-md">
+              </div>
+
+
+               <div className="flex flex-row-reverse items-center shadow-md bg-blue-50 rounded-2xl">
+                <div className="p-5 md:shrink-0">
+                  <img src={project7} alt="bg1" width={150} height={150} />
+                </div>
+                <div className="p-8">
                   <div className="text-sm font-semibold tracking-wide text-indigo-500 uppercase">
-                    3DP.rw
+                3DP.rw
                   </div>
                   <a
                     href="https://3-dp-rw.vercel.app/"
@@ -158,9 +172,11 @@ const project = () => {
                   </a>
 
                   <p className="mt-2 text-slate-900">
-                    Here you will se how we change data into Magic.
+                    Here you will see my best work that I've done this will
+                    shows you my skills and My capability.
                   </p>
                 </div>
+              </div>
             </div>
           </div>
         </div>
