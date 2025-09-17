@@ -30,7 +30,7 @@ const skills = () => {
                   className="text-slate-900 font-medium
         text-sm: sm:text-base truncate dark:text-slate-200"
                 >
-                  REACT.JS NODE
+                  REACT.JS NODE,NEXTJS, TAILWINDCSS, JAVASCRIPT, POSTGRESS,
                 </div>
                 <div
                   className="text-slate-900 font-medium text-sm *:sm:text-base
