@@ -72,7 +72,7 @@ const ContactMe = () => {
                     <FaEnvelope className="text-xl" />
                   </div>
                   <a href="mailto:youremail@example.com" className="text-gray-300 hover:text-green-400 transition-colors">
-                    youremail@example.com
+                    niyonagizerachel10@gmail.com
                   </a>
                 </div>
                 <div className="flex items-center gap-4">
