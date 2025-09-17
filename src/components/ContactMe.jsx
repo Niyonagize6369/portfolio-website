@@ -59,7 +59,7 @@ const ContactMe = () => {
             {/* Left Side: Contact Information */}
             <div className="p-8 md:p-12 space-y-8 bg-gray-900/30">
               <h3 className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500">
-                Let's Talk
+                Get in Touch
               </h3>
               <p className="text-gray-300 text-lg">
                 I'm open to discussing web development projects or partnership
