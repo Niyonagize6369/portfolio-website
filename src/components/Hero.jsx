@@ -10,7 +10,7 @@ const hero = () => {
       ssm:space-y-10 text-white"
       >
         <div className="lg:w-1/2 ssm:w-fit">
-          <p className="text-4xl mb-5 text-slate-300">I'm</p>
+          <p className="text-4xl mb-5 text-white">I'm</p>
           <h1 className="text-6xl">RACHEL NIYONAGIZE</h1>
           <hr />
           <p className="mt-10  text-slate-300 font-sans">
