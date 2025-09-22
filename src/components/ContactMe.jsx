@@ -58,10 +58,10 @@ const ContactMe = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2">
             {/* Left Side: Contact Information */}
             <div className="p-8 md:p-12 space-y-8 bg-gray-900/30">
-              <h3 className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500">
+              <h3 className="text-4xl font-bold bg-clip-text text-white bg-gradient-to-r from-green-400 to-blue-500">
                 Get in Touch
               </h3>
-              <p className="text-gray-300 text-lg">
+              <p className="text-white text-lg">
                 I'm open to discussing web development projects or partnership
                 opportunities. Fill out the form, and let's create something
                 amazing together.
@@ -71,7 +71,7 @@ const ContactMe = () => {
                   <div className="p-3 bg-gradient-to-tr from-green-400 to-blue-500 rounded-full shadow-lg">
                     <FaEnvelope className="text-xl" />
                   </div>
-                  <a href="mailto:youremail@example.com" className="text-gray-300 hover:text-green-400 transition-colors">
+                  <a href="mailto:youremail@example.com" className="text-white hover:text-green-400 transition-colors">
                     niyonagizerachel10@gmail.com
                   </a>
                 </div>
@@ -79,13 +79,13 @@ const ContactMe = () => {
                   <div className="p-3 bg-gradient-to-tr from-green-400 to-blue-500 rounded-full shadow-lg">
                     <FaPhone className="text-xl" />
                   </div>
-                  <span className="text-gray-300">+250-783350275</span>
+                  <span className="text-white">+250-783350275</span>
                 </div>
                 <div className="flex items-center gap-4">
                   <div className="p-3 bg-gradient-to-tr from-green-400 to-blue-500 rounded-full shadow-lg">
                     <FaMapMarkedAlt className="text-xl" />
                   </div>
-                  <span className="text-gray-300">Kigali, Gasabo, Rwanda</span>
+                  <span className="text-white">Kigali, Gasabo, Rwanda</span>
                 </div>
               </div>
             </div>
@@ -106,7 +106,7 @@ const ContactMe = () => {
                   />
                   <label
                     htmlFor="name"
-                    className="absolute left-3 -top-2.5 text-gray-400 text-sm transition-all peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-placeholder-shown:top-3 peer-focus:-top-2.5 peer-focus:text-sm peer-focus:text-green-400"
+                    className="absolute left-3 -top-2.5 text-gray-300 text-sm transition-all peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-placeholder-shown:top-3 peer-focus:-top-2.5 peer-focus:text-sm peer-focus:text-green-400"
                   >
                     Your Name
                   </label>
