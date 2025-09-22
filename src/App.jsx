@@ -5,7 +5,7 @@ import AboutMe from "./components/AboutMe";
 import ContactMe from "./components/ContactMe";
 function App() {
   return (
-    <div className="bg-gray-600">
+    <div className="bg-gray-800">
       <Nav />
       <Main />
       <AboutMe />

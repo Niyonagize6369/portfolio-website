@@ -8,8 +8,8 @@ import project7 from "../assets/project7.jpg";
 
 const project = () => {
   return (
-    <div id="project" className="pt-12">
-      <div className="max-w-full m-20 bg-gray-500">
+    <div id="project" className="pt-12 bg-gray-800">
+      <div className="max-w-full m-20 bg-gray-900">
         <div className="grid m-10 justify-items-center">
           <h1 className="py-2 mb-12 text-4xl font-bold text-center text-white">
             Project

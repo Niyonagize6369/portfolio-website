@@ -10,8 +10,8 @@ import react9 from "../assets/react9.jpg";
 
 const skills = () => {
   return (
-    <div id="skills" className=" z-10 pt-12">
-      <div className="bg-gray-500 m-20 ">
+    <div id="skills" className=" z-10 pt-12 bg-gray-800">
+      <div className="bg-gray-900 m-20 ">
         <h1 className="text-4xl text-white py-2 font-bold text-center mb-12">
           Skills
         </h1>
