@@ -20,7 +20,7 @@ const project = () => {
           <div className="gap-4 p-0.5">
             <div className="max-w-md mx-auto overflow-hidden bg-white shadow-md rounded-xl md:max-w-2xl hover:animate-pulse"></div>
             <div className="grid gap-5 md:grid-cols-2">
-              <div className="flex flex-row-reverse items-center shadow-md bg-blue-50 rounded-2xl">
+              <div className="flex flex-row-reverse items-center shadow-md bg-white rounded-2xl">
                 <div className="p-5 md:shrink-0">
                   <img src={project1} alt="bg1" width={150} height={150} />
                 </div>
@@ -42,7 +42,7 @@ const project = () => {
                 </div>
               </div>
 
-              <div className="flex items-center shadow-md bg-blue-50 rounded-2xl">
+              <div className="flex items-center shadow-md bg-white rounded-2xl">
                 <div className="p-5 md:shrink-0">
                   <img src={project2} alt="bg1" width={150} height={150} />
                 </div>
@@ -69,7 +69,7 @@ const project = () => {
           <div className="gap-4 p-0.5">
             <div className="max-w-md mx-auto overflow-hidden md:max-w-2xl hover:animate-pulse"></div>
             <div className="grid gap-5 md:grid-cols-2">
-              <div className="flex flex-row-reverse items-center shadow-md bg-blue-50 rounded-2xl">
+              <div className="flex flex-row-reverse items-center shadow-md bg-white rounded-2xl">
                 <div className="p-5 md:shrink-0">
                   <img src={project3} alt="bg1" width={250} height={250} />
                 </div>
@@ -92,7 +92,7 @@ const project = () => {
                
               </div>
 
-              <div className="flex items-center shadow-md bg-blue-50 rounded-2xl">
+              <div className="flex items-center shadow-md bg-white rounded-2xl">
                 <div className="p-5 md:shrink-0">
                   <img src={project4} alt="bg1" width={150} height={150} />
                 </div>
@@ -112,7 +112,7 @@ const project = () => {
                   </p>
                 </div>
               </div>
-              <div className="flex flex-row-reverse items-center shadow-md bg-blue-50 rounded-2xl">
+              <div className="flex flex-row-reverse items-center shadow-md bg-white rounded-2xl">
                 <div className="p-5 md:shrink-0">
                   <img src={project5} alt="bg1" width={150} height={150} />
                 </div>
@@ -134,7 +134,7 @@ const project = () => {
                 </div>
               </div>
 
-               <div className="flex flex-row-reverse items-center shadow-md bg-blue-50 rounded-2xl">
+               <div className="flex flex-row-reverse items-center shadow-md bg-white rounded-2xl">
                 <div className="p-5 md:shrink-0">
                   <img src={project6} alt="bg1" width={150} height={150} />
                 </div>
@@ -156,7 +156,7 @@ const project = () => {
               </div>
 
 
-               <div className="flex flex-row-reverse items-center shadow-md bg-blue-50 rounded-2xl">
+               <div className="flex flex-row-reverse items-center shadow-md bg-white rounded-2xl">
                 <div className="p-5 md:shrink-0">
                   <img src={project7} alt="bg1" width={150} height={150} />
                 </div>
